@@ -4,4 +4,5 @@ class Business:
 
     def create_business(self, name, location):
         self.business[name] = location
+        
         return {"message": "Business added succesfully"}
